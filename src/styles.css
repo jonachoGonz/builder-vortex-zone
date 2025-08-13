@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* Font fallbacks - using Inter as fallback for custom fonts */
+  .font-display {
+    font-family: 'PP Eiko', 'Inter', Arial, sans-serif;
+  }
+
+  .font-body {
+    font-family: 'PP Neue Montreal', 'Inter', Arial, sans-serif;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: 'Inter', Arial, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .btn-pill {
+    @apply rounded-full border border-cream-100 bg-sage-100 text-sage-200 px-7 py-3 font-medium transition-all duration-300 hover:bg-sage-200 hover:text-cream-100;
+  }
+
+  .btn-pill-dark {
+    @apply rounded-full bg-sage-200 text-cream-100 px-7 py-3 font-medium transition-all duration-300 hover:bg-opacity-80;
+  }
+}
