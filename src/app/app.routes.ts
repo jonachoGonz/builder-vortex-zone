@@ -7,6 +7,7 @@ import { SomosShowcaseComponent } from './pages/somos-showcase';
 export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'admin', component: AdminComponent },
+  { path: 'somos-showcase', component: SomosShowcaseComponent },
   { path: 'services', component: PlaceholderComponent, data: { pageName: 'Services' } },
   { path: 'locations', component: PlaceholderComponent, data: { pageName: 'Locations' } },
   { path: 'about', component: PlaceholderComponent, data: { pageName: 'About' } },
