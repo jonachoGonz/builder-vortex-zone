@@ -9,6 +9,7 @@ export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'admin', component: AdminComponent },
   { path: 'somos-showcase', component: SomosShowcaseComponent },
+  { path: 'terapias-showcase', component: TerapiasShowcaseComponent },
   { path: 'services', component: PlaceholderComponent, data: { pageName: 'Services' } },
   { path: 'locations', component: PlaceholderComponent, data: { pageName: 'Locations' } },
   { path: 'about', component: PlaceholderComponent, data: { pageName: 'About' } },
