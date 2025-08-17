@@ -3,6 +3,7 @@ import { HomeComponent } from './pages/home';
 import { AdminComponent } from './pages/admin';
 import { PlaceholderComponent } from './pages/placeholder';
 import { SomosShowcaseComponent } from './pages/somos-showcase';
+import { TerapiasShowcaseComponent } from './pages/terapias-showcase';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
