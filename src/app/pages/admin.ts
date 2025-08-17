@@ -7,7 +7,7 @@ import { SomosComponent } from '../components/somos';
 @Component({
   selector: 'app-admin',
   standalone: true,
-  imports: [CommonModule, NavbarComponent, HeroComponent],
+  imports: [CommonModule, NavbarComponent, HeroComponent, SomosComponent],
   template: `
     <div class="min-h-screen bg-gray-50">
       <nav class="bg-white shadow-sm border-b border-gray-200">
