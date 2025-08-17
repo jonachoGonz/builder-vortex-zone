@@ -8,7 +8,7 @@ import { TerapiasComponent } from '../components/terapias';
 @Component({
   selector: 'app-admin',
   standalone: true,
-  imports: [CommonModule, NavbarComponent, HeroComponent, SomosComponent],
+  imports: [CommonModule, NavbarComponent, HeroComponent, SomosComponent, TerapiasComponent],
   template: `
     <div class="min-h-screen bg-gray-50">
       <nav class="bg-white shadow-sm border-b border-gray-200">
