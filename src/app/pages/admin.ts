@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from '../components/navbar';
 import { HeroComponent } from '../components/hero';
 import { SomosComponent } from '../components/somos';
+import { TerapiasComponent } from '../components/terapias';
 
 @Component({
   selector: 'app-admin',
