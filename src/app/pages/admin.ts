@@ -7,6 +7,7 @@ import { TerapiasComponent } from '../components/terapias';
 import { EquipoComponent } from '../components/equipo';
 import { ResenaComponent } from '../components/resena';
 import { RrssComponent } from '../components/rrss';
+import { FooterComponent } from '../components/footer';
 
 @Component({
   selector: 'app-admin',
