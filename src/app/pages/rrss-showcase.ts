@@ -30,11 +30,12 @@ import { RrssComponent } from '../components/rrss';
         <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-8">
           <div class="flex items-center gap-4">
             <label class="text-sm font-medium text-gray-700">Component Type:</label>
-            <select 
+            <select
               [(ngModel)]="selectedType"
               class="px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-sage-200 focus:border-sage-200"
             >
               <option value="type-1">Type 1 - Social Media Grid</option>
+              <option value="type-2">Type 2 - Instagram Feed</option>
             </select>
           </div>
         </div>
