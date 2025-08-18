@@ -11,7 +11,7 @@ import { RrssComponent } from '../components/rrss';
 @Component({
   selector: 'app-admin',
   standalone: true,
-  imports: [CommonModule, NavbarComponent, HeroComponent, SomosComponent, TerapiasComponent, EquipoComponent, ResenaComponent],
+  imports: [CommonModule, NavbarComponent, HeroComponent, SomosComponent, TerapiasComponent, EquipoComponent, ResenaComponent, RrssComponent],
   template: `
     <div class="min-h-screen bg-gray-50">
       <nav class="bg-white shadow-sm border-b border-gray-200">
