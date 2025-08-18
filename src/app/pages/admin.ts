@@ -340,7 +340,7 @@ import { RrssComponent } from '../components/rrss';
                 </div>
                 <div class="ml-4">
                   <p class="text-sm font-medium text-gray-900">RRSS Types</p>
-                  <p class="text-2xl font-semibold text-gray-700">1</p>
+                  <p class="text-2xl font-semibold text-gray-700">2</p>
                 </div>
               </div>
             </div>
