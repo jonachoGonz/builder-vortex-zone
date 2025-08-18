@@ -68,5 +68,5 @@ import { RrssComponent } from '../components/rrss';
   `,
 })
 export class RrssShowcaseComponent {
-  selectedType: 'type-1' = 'type-1';
+  selectedType: 'type-1' | 'type-2' = 'type-1';
 }
