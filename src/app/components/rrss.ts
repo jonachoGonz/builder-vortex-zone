@@ -303,6 +303,245 @@ interface SocialPost {
         </div>
       </div>
     </section>
+
+    <!-- Type 2: Instagram Feed Layout -->
+    <section *ngIf="type === 'type-2'" class="py-20 px-10">
+      <div class="max-w-7xl mx-auto">
+
+        <!-- Header Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
+          <div class="lg:col-span-2">
+            <h2 class="text-4xl lg:text-5xl font-bold text-purple-800 leading-tight mb-8">
+              We're on Instagram
+            </h2>
+          </div>
+          <div class="flex items-end justify-start lg:justify-end">
+            <span class="text-4xl lg:text-5xl font-bold text-purple-800 leading-tight">
+              @habitsupps
+            </span>
+          </div>
+        </div>
+
+        <!-- Instagram Feed Widget -->
+        <div class="relative w-full">
+          <div class="bg-white rounded-lg shadow-sm overflow-hidden">
+
+            <!-- Posts Container -->
+            <div class="relative overflow-hidden">
+              <!-- Posts Grid -->
+              <div class="flex overflow-x-auto scrollbar-hide" id="instagram-slider">
+                <div class="flex gap-0 min-w-full">
+
+                  <!-- Post 1 -->
+                  <div class="w-1/6 flex-shrink-0 bg-white relative group">
+                    <a
+                      href="https://www.instagram.com/p/DMYyVR2zcrX"
+                      target="_blank"
+                      class="block relative w-full pt-[100%] overflow-hidden cursor-pointer">
+
+                      <img
+                        src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?w=400&h=400&fit=crop&crop=center"
+                        alt="Self-care summer tips"
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+
+                      <!-- Hover Overlay -->
+                      <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-white text-center p-4 text-sm leading-5 max-h-20 overflow-hidden">
+                          it's self-care summer 🌺🌊🐚 here's a few of our fave self-care tips to keep you feeling your best this summer ✨
+                        </div>
+                      </div>
+
+                      <!-- Post Type Icon -->
+                      <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+                        <svg class="w-6 h-6 text-white fill-current" viewBox="0 0 24 24">
+                          <path d="M8,5.14V19.14L19,12.14L8,5.14Z" />
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!-- Post 2 -->
+                  <div class="w-1/6 flex-shrink-0 bg-white relative group">
+                    <a
+                      href="https://www.instagram.com/p/DMWDf1_TWBn"
+                      target="_blank"
+                      class="block relative w-full pt-[100%] overflow-hidden cursor-pointer">
+
+                      <img
+                        src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop&crop=center"
+                        alt="Science-backed supplements"
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+
+                      <!-- Hover Overlay -->
+                      <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-white text-center p-4 text-sm leading-5 max-h-20 overflow-hidden">
+                          Level up your wellness routine with our science-backed supplements 💊✨ Women's Multi supports general health + wellness
+                        </div>
+                      </div>
+
+                      <!-- Post Type Icon -->
+                      <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+                        <svg class="w-6 h-6 text-white fill-current" viewBox="0 0 45.964 45.964">
+                          <path d="M32.399,40.565H11.113v1.297c0,2.24,1.838,4.051,4.076,4.051h26.733c2.239,0,4.042-1.811,4.042-4.051V15.13c0-2.237-1.803-4.068-4.042-4.068h-1.415v21.395C40.507,36.904,36.845,40.566,32.399,40.565z"/>
+                          <path d="M0,4.102l0,28.355c0,2.241,1.814,4.067,4.051,4.067h28.365c2.237,0,4.066-1.826,4.066-4.067l0-28.356c0-2.238-1.828-4.051-4.066-4.051H4.051C1.814,0.05,0,1.862,0,4.102z"/>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!-- Post 3 -->
+                  <div class="w-1/6 flex-shrink-0 bg-white relative group">
+                    <a
+                      href="https://www.instagram.com/p/DMHaGpjT7io"
+                      target="_blank"
+                      class="block relative w-full pt-[100%] overflow-hidden cursor-pointer">
+
+                      <img
+                        src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400&h=400&fit=crop&crop=center"
+                        alt="Women's Multi vitamins"
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+
+                      <!-- Hover Overlay -->
+                      <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-white text-center p-4 text-sm leading-5 max-h-20 overflow-hidden">
+                          Self-care starts here 🌸 Our Women's Multi is packed with 23 essential vitamins and minerals ✨
+                        </div>
+                      </div>
+
+                      <!-- Post Type Icon -->
+                      <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+                        <svg class="w-6 h-6 text-white fill-current" viewBox="0 0 45.964 45.964">
+                          <path d="M32.399,40.565H11.113v1.297c0,2.24,1.838,4.051,4.076,4.051h26.733c2.239,0,4.042-1.811,4.042-4.051V15.13c0-2.237-1.803-4.068-4.042-4.068h-1.415v21.395C40.507,36.904,36.845,40.566,32.399,40.565z"/>
+                          <path d="M0,4.102l0,28.355c0,2.241,1.814,4.067,4.051,4.067h28.365c2.237,0,4.066-1.826,4.066-4.067l0-28.356c0-2.238-1.828-4.051-4.066-4.051H4.051C1.814,0.05,0,1.862,0,4.102z"/>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!-- Post 4 -->
+                  <div class="w-1/6 flex-shrink-0 bg-white relative group">
+                    <a
+                      href="https://www.instagram.com/p/DJ76kyZzrzJ"
+                      target="_blank"
+                      class="block relative w-full pt-[100%] overflow-hidden cursor-pointer">
+
+                      <img
+                        src="https://images.unsplash.com/photo-1610182419520-3b5834c18d30?w=400&h=400&fit=crop&crop=center"
+                        alt="Daily wellness checklist"
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+
+                      <!-- Hover Overlay -->
+                      <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-white text-center p-4 text-sm leading-5 max-h-20 overflow-hidden">
+                          Daily checklist 📝✨ What wellness HABITs are you prioritizing today? 🧘🏻‍♀️🍵🎧💌
+                        </div>
+                      </div>
+
+                      <!-- Post Type Icon -->
+                      <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+                        <svg class="w-6 h-6 text-white fill-current" viewBox="0 0 45.964 45.964">
+                          <path d="M32.399,40.565H11.113v1.297c0,2.24,1.838,4.051,4.076,4.051h26.733c2.239,0,4.042-1.811,4.042-4.051V15.13c0-2.237-1.803-4.068-4.042-4.068h-1.415v21.395C40.507,36.904,36.845,40.566,32.399,40.565z"/>
+                          <path d="M0,4.102l0,28.355c0,2.241,1.814,4.067,4.051,4.067h28.365c2.237,0,4.066-1.826,4.066-4.067l0-28.356c0-2.238-1.828-4.051-4.066-4.051H4.051C1.814,0.05,0,1.862,0,4.102z"/>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!-- Post 5 -->
+                  <div class="w-1/6 flex-shrink-0 bg-white relative group">
+                    <a
+                      href="https://www.instagram.com/p/DJpfdKaz6gm"
+                      target="_blank"
+                      class="block relative w-full pt-[100%] overflow-hidden cursor-pointer">
+
+                      <img
+                        src="https://images.unsplash.com/photo-1580013759032-c96505e24c1f?w=400&h=400&fit=crop&crop=center"
+                        alt="Hair Growth supplement"
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+
+                      <!-- Hover Overlay -->
+                      <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-white text-center p-4 text-sm leading-5 max-h-20 overflow-hidden">
+                          Your hair's new secret admirer 🎀 Stronger, healthier hair starts here with key nutrients that nourish from within ✨
+                        </div>
+                      </div>
+
+                      <!-- Post Type Icon -->
+                      <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+                        <svg class="w-6 h-6 text-white fill-current" viewBox="0 0 45.964 45.964">
+                          <path d="M32.399,40.565H11.113v1.297c0,2.24,1.838,4.051,4.076,4.051h26.733c2.239,0,4.042-1.811,4.042-4.051V15.13c0-2.237-1.803-4.068-4.042-4.068h-1.415v21.395C40.507,36.904,36.845,40.566,32.399,40.565z"/>
+                          <path d="M0,4.102l0,28.355c0,2.241,1.814,4.067,4.051,4.067h28.365c2.237,0,4.066-1.826,4.066-4.067l0-28.356c0-2.238-1.828-4.051-4.066-4.051H4.051C1.814,0.05,0,1.862,0,4.102z"/>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+
+                  <!-- Post 6 -->
+                  <div class="w-1/6 flex-shrink-0 bg-white relative group">
+                    <a
+                      href="https://www.instagram.com/p/DJSmrfdzuBm"
+                      target="_blank"
+                      class="block relative w-full pt-[100%] overflow-hidden cursor-pointer">
+
+                      <img
+                        src="https://images.unsplash.com/photo-1524863479829-916d8e77f114?w=400&h=400&fit=crop&crop=center"
+                        alt="Men's Multi supplement"
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+
+                      <!-- Hover Overlay -->
+                      <div class="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <div class="text-white text-center p-4 text-sm leading-5 max-h-20 overflow-hidden">
+                          Your all-in-one for feeling your best ✨ HABIT's Men's Multi supports energy, immunity, mood + sleep with 23 essential nutrients
+                        </div>
+                      </div>
+
+                      <!-- Post Type Icon -->
+                      <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+                        <svg class="w-6 h-6 text-white fill-current" viewBox="0 0 45.964 45.964">
+                          <path d="M32.399,40.565H11.113v1.297c0,2.24,1.838,4.051,4.076,4.051h26.733c2.239,0,4.042-1.811,4.042-4.051V15.13c0-2.237-1.803-4.068-4.042-4.068h-1.415v21.395C40.507,36.904,36.845,40.566,32.399,40.565z"/>
+                          <path d="M0,4.102l0,28.355c0,2.241,1.814,4.067,4.051,4.067h28.365c2.237,0,4.066-1.826,4.066-4.067l0-28.356c0-2.238-1.828-4.051-4.066-4.051H4.051C1.814,0.05,0,1.862,0,4.102z"/>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Navigation Buttons -->
+              <button
+                class="absolute left-0 top-1/2 -translate-y-1/2 bg-black bg-opacity-80 hover:bg-opacity-90 text-white w-15 h-15 rounded-full flex items-center justify-center transition-all duration-200 opacity-0 group-hover:opacity-100 z-10"
+                (click)="scrollInstagramFeed('left')"
+                type="button"
+                aria-label="Previous posts">
+                <svg class="w-3 h-4 fill-current" viewBox="4 0 8 16">
+                  <path d="M4.3,8.7l6,5.9c0.4,0.4,1.1,0.4,1.5,0c0.4-0.4,0.4-1.1,0-1.5L6.5,8l5.2-5.2c0.4-0.4,0.4-1.1,0-1.5c-0.4-0.4-1.1-0.4-1.5,0l-6,6C3.9,7.7,3.9,8.3,4.3,8.7z"/>
+                </svg>
+              </button>
+
+              <button
+                class="absolute right-0 top-1/2 -translate-y-1/2 bg-black bg-opacity-80 hover:bg-opacity-90 text-white w-15 h-15 rounded-full flex items-center justify-center transition-all duration-200 z-10"
+                (click)="scrollInstagramFeed('right')"
+                type="button"
+                aria-label="Next posts">
+                <svg class="w-3 h-4 fill-current" viewBox="4 0 8 16">
+                  <path d="M11.7,7.3l-6-5.9c-0.4-0.4-1.1-0.4-1.5,0c-0.4,0.4-0.4,1.1,0,1.5L9.5,8l-5.2,5.2c-0.4,0.4-0.4,1.1,0,1.5c0.4,0.4,1.1,0.4,1.5,0l6-6C12.1,8.3,12.1,7.7,11.7,7.3z"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
   `
 })
 export class RrssComponent {
