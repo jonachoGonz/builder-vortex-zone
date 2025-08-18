@@ -6,6 +6,7 @@ import { SomosComponent } from '../components/somos';
 import { TerapiasComponent } from '../components/terapias';
 import { EquipoComponent } from '../components/equipo';
 import { ResenaComponent } from '../components/resena';
+import { RrssComponent } from '../components/rrss';
 
 @Component({
   selector: 'app-admin',
