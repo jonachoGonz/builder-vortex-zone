@@ -11,7 +11,7 @@ import { FooterComponent } from '../components/footer';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent, HeroComponent, SomosComponent, TerapiasComponent, EquipoComponent, ResenaComponent, RrssComponent],
+  imports: [NavbarComponent, HeroComponent, SomosComponent, TerapiasComponent, EquipoComponent, ResenaComponent, RrssComponent, FooterComponent],
   template: `
     <div class="relative">
       <app-navbar type="type-1"></app-navbar>
@@ -21,6 +21,7 @@ import { FooterComponent } from '../components/footer';
       <app-equipo type="type-1"></app-equipo>
       <app-resena type="type-1"></app-resena>
       <app-rrss type="type-1"></app-rrss>
+      <app-footer type="type-1"></app-footer>
     </div>
   `,
 })
