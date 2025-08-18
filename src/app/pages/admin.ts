@@ -232,6 +232,34 @@ import { FooterComponent } from '../components/footer';
             </div>
           </div>
 
+          <!-- Footer Components -->
+          <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+            <div class="px-6 py-4 border-b border-gray-200">
+              <h2 class="text-lg font-medium text-gray-900">Footer Components</h2>
+              <p class="text-sm text-gray-500 mt-1">Different footer section variations</p>
+            </div>
+
+            <div class="p-6 space-y-8">
+              <div>
+                <h3 class="text-md font-medium text-gray-900 mb-4">Footer Type 1 (Healthcare Footer)</h3>
+                <div class="relative border border-gray-200 rounded-lg overflow-hidden" style="height: 400px;">
+                  <div class="transform scale-25 origin-top-left w-[400%] h-[400%]">
+                    <app-footer type="type-1"></app-footer>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <h3 class="text-md font-medium text-gray-900 mb-4">Footer Type 2 (Tech Company Footer)</h3>
+                <div class="relative border border-gray-200 rounded-lg overflow-hidden" style="height: 400px;">
+                  <div class="transform scale-50 origin-top-left w-[200%] h-[200%]">
+                    <app-footer type="type-2"></app-footer>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- Component Stats -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
