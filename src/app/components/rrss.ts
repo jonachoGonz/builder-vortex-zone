@@ -582,4 +582,16 @@ export class RrssComponent {
       socialUrl: 'https://x.com/_alexbrogan/status/1856907844928282763'
     }
   ];
+
+  scrollInstagramFeed(direction: 'left' | 'right') {
+    const slider = document.getElementById('instagram-slider');
+    if (slider) {
+      const scrollAmount = slider.clientWidth / 3; // Scroll by 3 posts width
+      if (direction === 'left') {
+        slider.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+      } else {
+        slider.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+      }
+    }
+  }
 }
