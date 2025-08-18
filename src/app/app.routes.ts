@@ -7,6 +7,7 @@ import { TerapiasShowcaseComponent } from './pages/terapias-showcase';
 import { EquipoShowcaseComponent } from './pages/equipo-showcase';
 import { ResenaShowcaseComponent } from './pages/resena-showcase';
 import { RrssShowcaseComponent } from './pages/rrss-showcase';
+import { FooterShowcaseComponent } from './pages/footer-showcase';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
