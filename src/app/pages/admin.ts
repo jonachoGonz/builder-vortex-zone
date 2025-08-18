@@ -311,7 +311,7 @@ import { ResenaComponent } from '../components/resena';
                 </div>
                 <div class="ml-4">
                   <p class="text-sm font-medium text-gray-900">Total Components</p>
-                  <p class="text-2xl font-semibold text-gray-700">11</p>
+                  <p class="text-2xl font-semibold text-gray-700">12</p>
                 </div>
               </div>
             </div>
