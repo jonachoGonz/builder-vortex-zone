@@ -10,7 +10,7 @@ import { RrssComponent } from '../components/rrss';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent, HeroComponent, SomosComponent, TerapiasComponent, EquipoComponent, ResenaComponent],
+  imports: [NavbarComponent, HeroComponent, SomosComponent, TerapiasComponent, EquipoComponent, ResenaComponent, RrssComponent],
   template: `
     <div class="relative">
       <app-navbar type="type-1"></app-navbar>
