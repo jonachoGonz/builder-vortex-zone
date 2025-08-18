@@ -6,10 +6,11 @@ interface Testimonial {
   quote: string;
   name: string;
   title: string;
-  goal: string;
+  goal?: string;
   image: string;
-  instagramHandle: string;
-  instagramUrl: string;
+  instagramHandle?: string;
+  instagramUrl?: string;
+  company?: string;
 }
 
 @Component({
