@@ -17,6 +17,7 @@ export const routes: Routes = [
   { path: 'equipo-showcase', component: EquipoShowcaseComponent },
   { path: 'resena-showcase', component: ResenaShowcaseComponent },
   { path: 'rrss-showcase', component: RrssShowcaseComponent },
+  { path: 'footer-showcase', component: FooterShowcaseComponent },
   { path: 'services', component: PlaceholderComponent, data: { pageName: 'Services' } },
   { path: 'locations', component: PlaceholderComponent, data: { pageName: 'Locations' } },
   { path: 'about', component: PlaceholderComponent, data: { pageName: 'About' } },
