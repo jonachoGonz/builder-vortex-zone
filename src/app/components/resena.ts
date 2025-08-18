@@ -157,7 +157,7 @@ interface Testimonial {
   `
 })
 export class ResenaComponent implements OnInit, AfterViewInit, OnDestroy {
-  @Input() type: 'type-1' = 'type-1';
+  @Input() type: 'type-1' | 'type-2' = 'type-1';
   
   currentIndex = 0;
   autoplayInterval: any;
