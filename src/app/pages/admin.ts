@@ -203,6 +203,25 @@ import { RrssComponent } from '../components/rrss';
             </div>
           </div>
 
+          <!-- RRSS Components -->
+          <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+            <div class="px-6 py-4 border-b border-gray-200">
+              <h2 class="text-lg font-medium text-gray-900">RRSS Components</h2>
+              <p class="text-sm text-gray-500 mt-1">Social media testimonials and posts section variations</p>
+            </div>
+
+            <div class="p-6 space-y-8">
+              <div>
+                <h3 class="text-md font-medium text-gray-900 mb-4">RRSS Type 1 (Social Media Grid)</h3>
+                <div class="relative border border-gray-200 rounded-lg overflow-hidden" style="height: 600px;">
+                  <div class="transform scale-50 origin-top-left w-[200%] h-[200%]">
+                    <app-rrss type="type-1"></app-rrss>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- Component Stats -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
