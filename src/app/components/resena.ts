@@ -355,7 +355,7 @@ interface Testimonial {
 })
 export class ResenaComponent implements OnInit, AfterViewInit, OnDestroy {
   @Input() type: 'type-1' | 'type-2' = 'type-1';
-  
+
   currentIndex = 0;
   autoplayInterval: any;
 
@@ -412,8 +412,66 @@ export class ResenaComponent implements OnInit, AfterViewInit, OnDestroy {
     }
   ];
 
+  // Type 2 testimonials data - Column 1
+  type2TestimonialsColumn1: Testimonial[] = [
+    {
+      id: 1,
+      quote: "All You Can created a website for our client that not only spoke directly to their target audience and looked amazing, but also attracted immediate investor interest.",
+      name: "Dan Morris",
+      title: "",
+      company: "Shofsky",
+      image: "https://framerusercontent.com/images/t4q1i1rc4zpn2pEibIBrl3xUD88.jpeg?scale-down-to=512"
+    },
+    {
+      id: 2,
+      quote: "The team at All You Can team know their stuff. They deliver on their promises and create something that stands out in a sea of sameness.",
+      name: "Safwan Al Turk",
+      title: "",
+      company: "Concious Baboon",
+      image: "https://framerusercontent.com/images/oxGO401Zz5QENRA7tS3Mv8EY.jpg"
+    },
+    {
+      id: 3,
+      quote: "Once more, thank you so much for another successful launch and all the hard work you and your team put in.",
+      name: "Cecilia Sun",
+      title: "",
+      company: "Stylus Medicine",
+      image: "https://framerusercontent.com/images/j8kdiproqHQP72ozVgMVXyaBz4.jpeg?scale-down-to=512"
+    }
+  ];
+
+  // Type 2 testimonials data - Column 2
+  type2TestimonialsColumn2: Testimonial[] = [
+    {
+      id: 1,
+      quote: "The great thing about Marc and his team are that they don't stick to a brief rigidly. They offer so many other suggestions, and all of these have benefited us greatly.",
+      name: "Anton Nilsson",
+      title: "",
+      company: "Pallisto",
+      image: "https://framerusercontent.com/images/ijiQBVyXqQ0Q1Ix4mNrYdfxdpA.jpeg"
+    },
+    {
+      id: 2,
+      quote: "Marc is a design genius. We worked with him on a couple of projects recently where he made great design look easy. He's an amazing person to work alongside too.",
+      name: "Jonathan Wilke",
+      title: "",
+      company: "SupaStarter",
+      image: "https://framerusercontent.com/images/V5wDJrKp3Gw1KTvT01vn0k5gNI.jpg"
+    },
+    {
+      id: 3,
+      quote: "Marc is just awesome! The man is a great problem solver, and always goes that extra mile to make your product stand out.",
+      name: "Lazar Nikolov",
+      title: "",
+      company: "Sentry",
+      image: "https://framerusercontent.com/images/1bv1gcEu2FrOvXxoHvpU4VefzY.jpg"
+    }
+  ];
+
   ngOnInit() {
-    this.startAutoplay();
+    if (this.type === 'type-1') {
+      this.startAutoplay();
+    }
   }
 
   ngAfterViewInit() {
