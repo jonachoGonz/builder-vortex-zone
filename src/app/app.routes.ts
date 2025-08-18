@@ -5,6 +5,7 @@ import { PlaceholderComponent } from './pages/placeholder';
 import { SomosShowcaseComponent } from './pages/somos-showcase';
 import { TerapiasShowcaseComponent } from './pages/terapias-showcase';
 import { EquipoShowcaseComponent } from './pages/equipo-showcase';
+import { ResenaShowcaseComponent } from './pages/resena-showcase';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -12,6 +13,7 @@ export const routes: Routes = [
   { path: 'somos-showcase', component: SomosShowcaseComponent },
   { path: 'terapias-showcase', component: TerapiasShowcaseComponent },
   { path: 'equipo-showcase', component: EquipoShowcaseComponent },
+  { path: 'resena-showcase', component: ResenaShowcaseComponent },
   { path: 'services', component: PlaceholderComponent, data: { pageName: 'Services' } },
   { path: 'locations', component: PlaceholderComponent, data: { pageName: 'Locations' } },
   { path: 'about', component: PlaceholderComponent, data: { pageName: 'About' } },
