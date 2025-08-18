@@ -51,6 +51,17 @@ import { RrssComponent } from '../components/rrss';
               <app-rrss type="type-1"></app-rrss>
             </div>
           </div>
+
+          <!-- Type 2 -->
+          <div *ngIf="selectedType === 'type-2'" class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
+            <div class="px-6 py-4 border-b border-gray-200">
+              <h2 class="text-lg font-medium text-gray-900">RRSS Type 2</h2>
+              <p class="text-sm text-gray-500 mt-1">Instagram feed layout with scrollable posts grid and hover effects</p>
+            </div>
+            <div class="bg-white">
+              <app-rrss type="type-2"></app-rrss>
+            </div>
+          </div>
         </div>
       </div>
     </div>
