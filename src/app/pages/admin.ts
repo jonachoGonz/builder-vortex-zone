@@ -190,6 +190,15 @@ import { ResenaComponent } from '../components/resena';
                   </div>
                 </div>
               </div>
+
+              <div>
+                <h3 class="text-md font-medium text-gray-900 mb-4">Reseña Type 2 (Vertical Scrolling Testimonials)</h3>
+                <div class="relative border border-gray-200 rounded-lg overflow-hidden" style="height: 500px;">
+                  <div class="transform scale-25 origin-top-left w-[400%] h-[400%]">
+                    <app-resena type="type-2"></app-resena>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
