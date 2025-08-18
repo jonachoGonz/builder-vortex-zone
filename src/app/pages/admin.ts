@@ -356,7 +356,7 @@ import { RrssComponent } from '../components/rrss';
                 </div>
                 <div class="ml-4">
                   <p class="text-sm font-medium text-gray-900">Total Components</p>
-                  <p class="text-2xl font-semibold text-gray-700">13</p>
+                  <p class="text-2xl font-semibold text-gray-700">14</p>
                 </div>
               </div>
             </div>
