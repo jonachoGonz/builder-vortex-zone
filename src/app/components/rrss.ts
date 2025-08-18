@@ -306,7 +306,7 @@ interface SocialPost {
   `
 })
 export class RrssComponent {
-  @Input() type: 'type-1' = 'type-1';
+  @Input() type: 'type-1' | 'type-2' = 'type-1';
 
   socialPosts: SocialPost[] = [
     {
