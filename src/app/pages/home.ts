@@ -19,6 +19,7 @@ import { RrssComponent } from '../components/rrss';
       <app-terapias type="type-1"></app-terapias>
       <app-equipo type="type-1"></app-equipo>
       <app-resena type="type-1"></app-resena>
+      <app-rrss type="type-1"></app-rrss>
     </div>
   `,
 })
