@@ -12,7 +12,7 @@ import { FooterComponent } from '../components/footer';
 @Component({
   selector: 'app-admin',
   standalone: true,
-  imports: [CommonModule, NavbarComponent, HeroComponent, SomosComponent, TerapiasComponent, EquipoComponent, ResenaComponent, RrssComponent],
+  imports: [CommonModule, NavbarComponent, HeroComponent, SomosComponent, TerapiasComponent, EquipoComponent, ResenaComponent, RrssComponent, FooterComponent],
   template: `
     <div class="min-h-screen bg-gray-50">
       <nav class="bg-white shadow-sm border-b border-gray-200">
