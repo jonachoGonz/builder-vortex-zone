@@ -219,6 +219,15 @@ import { RrssComponent } from '../components/rrss';
                   </div>
                 </div>
               </div>
+
+              <div>
+                <h3 class="text-md font-medium text-gray-900 mb-4">RRSS Type 2 (Instagram Feed)</h3>
+                <div class="relative border border-gray-200 rounded-lg overflow-hidden" style="height: 400px;">
+                  <div class="transform scale-50 origin-top-left w-[200%] h-[200%]">
+                    <app-rrss type="type-2"></app-rrss>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
