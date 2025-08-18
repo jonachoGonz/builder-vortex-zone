@@ -325,13 +325,29 @@ import { RrssComponent } from '../components/rrss';
                 <div class="flex-shrink-0">
                   <div class="w-8 h-8 bg-sage-100 rounded-full flex items-center justify-center">
                     <svg class="w-5 h-5 text-sage-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7Z" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <p class="text-sm font-medium text-gray-900">RRSS Types</p>
+                  <p class="text-2xl font-semibold text-gray-700">1</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+              <div class="flex items-center">
+                <div class="flex-shrink-0">
+                  <div class="w-8 h-8 bg-sage-100 rounded-full flex items-center justify-center">
+                    <svg class="w-5 h-5 text-sage-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 713.138-3.138z" />
                     </svg>
                   </div>
                 </div>
                 <div class="ml-4">
                   <p class="text-sm font-medium text-gray-900">Total Components</p>
-                  <p class="text-2xl font-semibold text-gray-700">12</p>
+                  <p class="text-2xl font-semibold text-gray-700">13</p>
                 </div>
               </div>
             </div>
