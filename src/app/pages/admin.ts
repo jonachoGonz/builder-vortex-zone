@@ -5,11 +5,12 @@ import { HeroComponent } from '../components/hero';
 import { SomosComponent } from '../components/somos';
 import { TerapiasComponent } from '../components/terapias';
 import { EquipoComponent } from '../components/equipo';
+import { ResenaComponent } from '../components/resena';
 
 @Component({
   selector: 'app-admin',
   standalone: true,
-  imports: [CommonModule, NavbarComponent, HeroComponent, SomosComponent, TerapiasComponent, EquipoComponent],
+  imports: [CommonModule, NavbarComponent, HeroComponent, SomosComponent, TerapiasComponent, EquipoComponent, ResenaComponent],
   template: `
     <div class="min-h-screen bg-gray-50">
       <nav class="bg-white shadow-sm border-b border-gray-200">
