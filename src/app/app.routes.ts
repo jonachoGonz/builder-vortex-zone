@@ -6,6 +6,7 @@ import { SomosShowcaseComponent } from './pages/somos-showcase';
 import { TerapiasShowcaseComponent } from './pages/terapias-showcase';
 import { EquipoShowcaseComponent } from './pages/equipo-showcase';
 import { ResenaShowcaseComponent } from './pages/resena-showcase';
+import { RrssShowcaseComponent } from './pages/rrss-showcase';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
